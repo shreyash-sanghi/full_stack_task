@@ -3,10 +3,10 @@ import Sidebar from "./Sidebar";
 const Dashboard = ()=>{
     return(
         <>
-            <div className=' flex w-full justify-between'>
+            <div className=' flex flex-col md:flex-row w-full justify-between'>
   <Sidebar/>
-  <main class=" flex flex-col w-full mx-16  ">
- <div class="w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <main class=" flex items-center flex-col w-full md:mx-16  ">
+ <div class=" w-[90%] md:w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Automatic optimization</h5>
     </a>
@@ -16,14 +16,14 @@ const Dashboard = ()=>{
        
     </a>
 </div>
- <div class="w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+ <div class=" w-[90%] md:w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Convert JPG to PNG </h5>
     </a>
     <p class="mb-3 text-lg font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <div className="flex justify-between items-center w-[90%] rounded-sm h-[6vh] mb-5 bg-sky-100   border-2">
-        <h5 class="mb-2 text-lg pl-2 rounded-md tracking-tight text-black">Transparent element within PNG files will automatically be set to white converted to JPG.</h5>
-        <svg class="w-6 h-6 pr-2 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+    <div className="flex justify-between items-center w-[90%] rounded-sm min-h-[6vh] mb-5 bg-sky-100   border-2">
+        <h5 class="mb-2 text-lg pl-2 rounded-md tracking-tight text-black">Transparent element within PNG files will automatically in JPG.</h5>
+        <svg class="w-6 h-6 pr-2 text-lg text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
 </svg>
 
@@ -33,13 +33,13 @@ const Dashboard = ()=>{
 
     </a>
 </div>
-<div class="w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-[90%] md:w-[100%] p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Advanced image reduction</h5>
     </a>
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">The most advanced online compressor used by professionals to reduce the file size of their photos and images Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-    <div className="flex justify-between items-center w-[90%] h-[6vh] mb-5 bg-sky-100   border-2">
-        <h5 class="mb-2 text-lg pl-2 tracking-tight text-black">Noteworthy technology acquisitions 2021</h5>
+    <div className="flex justify-between items-center w-[90%] min-h-[6vh] mb-5 bg-sky-100   border-2">
+        <h5 class="mb-2 text-lg md:pl-2 tracking-tight text-black">Noteworthy technology acquisitions 2021</h5>
         <svg class="w-6 h-6 pr-2 text-gray-800 dark:text-black" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 17.94 6M18 18 6.06 6"/>
 </svg>

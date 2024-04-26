@@ -3,9 +3,9 @@ import Sidebar from "./Sidebar";
 const Billing =()=>{
     return(
         <>
-                 <div className=' flex w-full justify-between'>
+                 <div className=' flex flex-col md:flex-row w-full justify-between'>
   <Sidebar/>
-          <div class="flex flex-col p-6 m-3 mx-3  w-[80%]  text-gray-200 bg-white rounded-lg border border-gray-900 shadow  dark:text-black ">
+          <div class="flex flex-col p-6 m-3 mx-3  w-[95%] md:w-[80%]  text-gray-200 bg-white rounded-lg border border-gray-900 shadow  dark:text-black ">
           
             <div className="my-5">
                 
@@ -38,15 +38,15 @@ const Billing =()=>{
               <h3 class=" text-lg ">0.03 USD</h3>
             </div>
             
-         <div className="flex items-center mt-2">
-         <button type="button" class="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2">
+         <div className="flex flex-col sm:flex-row sm:items-center mt-2">
+         <button type="button" class="text-gray-900 bg-white hover:bg-gray-100 border w-fit sm:w-auto border-gray-200 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 mr-2 mb-2">
 
 Upgrade
 </button>
-	<button type="button" class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2">
+	<button type="button" class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4  w-fit sm:w-auto focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 mr-2 mb-2">
 Increase monthly cap
 </button>
-	<button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4 focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2">
+	<button type="button" class="text-gray-900 bg-[#F7BE38] hover:bg-[#F7BE38]/90 focus:ring-4  w-fit sm:w-auto focus:ring-[#F7BE38]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-[#F7BE38]/50 mr-2 mb-2">
 
 Cancle subscription
 </button>
